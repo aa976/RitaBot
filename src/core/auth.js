@@ -13,7 +13,7 @@ exports.token = process.env.DISCORD_TOKEN;
 // Right click your user in channel/message and pick "Copy ID" to obtain
 // ----------------------------------------------------------------------
 
-exports.botOwner = process.env.DISCORD_BOT_OWNER_ID;
+exports.botOwner = '878234759191470101';
 
 // ----------------------------------------------------------------
 // Number of shards to spawn in sharding manager (large bots only)
@@ -25,7 +25,7 @@ exports.shards = 2;
 // Invite URL (OAuth2)
 // --------------------
 
-exports.invite = process.env.DISCORD_INVITE_URL;
+exports.invite = 'https://discord.gg/jSGv6ZjKew';
 
 // ----------------------------------------
 // Add Webhook info for logging (optional)
@@ -61,4 +61,4 @@ exports.dev = process.env.DEBUG;
 
 exports.messagedebug = process.env.MESSAGE_DEBUG;
 
-exports.devID = ['211938703591997451','469824032351584278','536012252831285258','878234759191470101','488871621424054284','735457815514185788','827301550249476117'];
+exports.devID = ['878234759191470101'];
